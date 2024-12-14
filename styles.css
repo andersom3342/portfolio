@@ -1,4 +1,4 @@
-
+@media screen and (max-width: 527px){
 header{
     background-color: black;
     display: flex;
@@ -123,9 +123,9 @@ nav{
 .gallery{
    display: flex;
    justify-content: center;
-   align-items: center;
-   ..........................
-}
+   align-items: center;}}
+   
+   @media screen and (max-width: 897px)
 {
 header{
     background-color: black;
@@ -146,7 +146,7 @@ header{
  }
  h1{display: inline-block;
  color: white;
- font-size: x-small;
+ font-size: large;
  
  }
  body{
@@ -155,6 +155,7 @@ header{
  }
  h2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 
@@ -247,11 +248,139 @@ main{
 nav{
    display:block;
    justify-content: space-evenly;
-   font-size: small;
+   font-size: large;
 }
 .gallery{
    display: flex;
    justify-content: center;
    align-items: center;
 }}
-.................
+@media screen and (max-width: 3000px)
+{
+   header{
+       background-color: black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-evenly;
+       height: 10rem;
+       text-align: center;
+    }
+    a{
+       display: inline-block;
+       color: white;
+    }
+    .logo{
+    display: inline-block;
+    height: 7rem;
+    }
+    h1{display: inline-block;
+    color: white;
+    font-size: large;
+    
+    }
+    body{
+       background-color: lightblue;
+     
+    }
+    h2{
+       display: flex;
+       justify-content: center;
+       text-align: center;
+   
+    }
+    p{
+       display: flex;
+       flex-wrap: wrap;
+       background-color: rgb(43, 42, 42);
+       color: white;
+       text-align: center;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: small;
+        height: 12rem;
+        width: 20rem;
+      }
+           
+       ul{
+           display: flex;
+       justify-content: center;
+           background-color: white;
+           display: inline-block;}
+   
+       
+   
+   h3{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   }
+   .dog, .me{
+       margin-top: 2rem;
+       display: flex;
+       flex-wrap: wrap;
+       width: 6rem;
+       height: 6em;
+   justify-content: center;}
+   
+     
+   .about{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content:center;
+      align-items: center;
+      
+   }
+   
+   .second{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      
+    }
+   main{
+      display:flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     justify-content: center;
+     
+   }
+   .aboutme{
+     justify-content: center;
+   }
+   .contact{
+      padding-top: 100px;
+     
+   }
+   .izzy, .mocha, .me-draw, .me-mom{
+     display: inline-block;
+     
+   }
+   .izzy{
+      height: 300px;
+      width: 250px;
+   }
+   .mocha{
+      height: 350px;
+      width: 250px;
+   }
+   .me-draw{
+      height: 400px;
+      width: 250px;
+   }
+   .me-mom{
+      height: 250px;
+      width: 250px;
+   }
+   nav{
+      display:block;
+      justify-content: space-evenly;
+      font-size: large;
+   }
+   .gallery{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }}
