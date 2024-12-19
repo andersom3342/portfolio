@@ -1,4 +1,4 @@
-@media screen and (max-width: 527px){
+@media(min-width: 320px){
 header{
     background-color: black;
     display: flex;
@@ -95,25 +95,23 @@ main{
    padding-top: 100px;
   
 }
-.izzy, .mocha, .me-draw, .me-mom{
-  display: inline-block;
   
-}
 .izzy{
-   height: 300px;
-   width: 250px;
+   height: 100px;
+   width: 50px;
+   justify-content: center;
 }
 .mocha{
-   height: 350px;
-   width: 250px;
+   height: 100px;
+   width: 50px;
 }
 .me-draw{
-   height: 400px;
-   width: 250px;
+   height: 100px;
+   width: 50px;
 }
 .me-mom{
-   height: 250px;
-   width: 250px;
+   height: 100px;
+   width: 50px;
 }
 nav{
    display:block;
@@ -121,11 +119,12 @@ nav{
    font-size: small;
 }
 .gallery{
-   display: flex;
+   display: block;
+   margin: auto;
    justify-content: center;
    align-items: center;}}
    
-   @media screen and (max-width: 897px)
+   @media screen and (min-width: 897px)
 {
 header{
     background-color: black;
@@ -255,7 +254,7 @@ nav{
    justify-content: center;
    align-items: center;
 }}
-@media screen and (max-width: 3000px)
+@media screen and (min-width: 3000px)
 {
    header{
        background-color: black;
@@ -354,25 +353,24 @@ nav{
       padding-top: 100px;
      
    }
-   .izzy, .mocha, .me-draw, .me-mom{
-     display: inline-block;
+
      
    }
    .izzy{
-      height: 300px;
-      width: 250px;
+      height: 100px;
+      width: 100px;
    }
    .mocha{
-      height: 350px;
-      width: 250px;
+      height: 150px;
+      width: 100px;
    }
    .me-draw{
-      height: 400px;
-      width: 250px;
+      height: 150px;
+      width: 100px;
    }
    .me-mom{
-      height: 250px;
-      width: 250px;
+      height: 100px;
+      width: 100px;
    }
    nav{
       display:block;
@@ -380,7 +378,8 @@ nav{
       font-size: large;
    }
    .gallery{
-      display: flex;
+      display: block;
+      
       justify-content: center;
       align-items: center;
    }}
