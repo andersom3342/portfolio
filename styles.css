@@ -1,15 +1,15 @@
 header{
-   background-color: black;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   justify-content: space-evenly;
-   height: 10rem;
-   text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10rem;
+  text-align: center;
 }
 a{
-   display: inline-block;
-   color: white;
+  display: inline-block;
+  color: white;
 }
 .logo{
 display: inline-block;
@@ -20,117 +20,111 @@ color: white;
 font-size: x-small;
 }
 body{
-   background-color: lightblue;
- }
+  background-color: lightblue;
+}
 h2{
-   display: flex;
-   justify-content: center;
-   text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+
 
 
 }
 p{
-   display: flex;
-   justify-content: center;
-   background-color: rgb(43, 42, 42);
-   color: white;
-   height: 270px;
-   width: 500px;
-   text-align: center;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: small;
-    height: 12rem;
-    width: 20rem;
-    padding:1rem}
-      
-    ul{
-        display: flex;
-    justify-content: center;
-        background-color: white;
-        display: inline-block;}
- 
- 
-   
- 
- 
- h3{
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- }
- .dog, .me{
-    display: flex;
-    flex-wrap: wrap;
-    width: 10rem;
-    height: 10rem;
- justify-content: center;
-margin-top: 3rem;}
- 
- 
-  .about{
-   display: flex;
-   flex-wrap: wrap;
-   gap: 2rem;
-   justify-content:center;
-   align-items: center;
-  
- }
- 
- 
- .second{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
- }
- main{
-   display:flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  display: flex;
   justify-content: center;
+  background-color: rgb(43, 42, 42);
+  color: white;
+  height: 270px;
+  width: 500px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: small;
+   height: 12rem;
+   width: 20rem;
+   padding:1rem}
+    
+   ul{
+       display: flex;
+   justify-content: center;
+       background-color: white;
+       display: inline-block;}
+ 
+h3{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.dog, .me{
+   display: flex;
+   flex-wrap: wrap;
+   width: 10rem;
+   height: 10rem;
+justify-content: center;
+margin-top: 3rem;}
+ .about{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content:center;
+  align-items: center;
  }
-.aboutme{
+.second{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  display:flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-items: center;
  justify-content: center;
+}
+.aboutme{
+justify-content: center;
 }
 .contact{
-  padding-top: 100px;
- }
- .izzy{
-  height: 200px;
-  width: 150px;
- 
+ padding-top: 100px;
+}
+.izzy{
+ height: 200px;
+ width: 150px;
 }
 .mocha{
-  height: 100px;
-  width: 50px;
+ height: 100px;
+ width: 50px;
 }
 .me-draw{
-  height: 100px;
-  width: 50px;
+ height: 100px;
+ width: 50px;
 }
 .me-mom{
-  height: 100px;
-  width: 50px;
+ height: 100px;
+ width: 50px;
 }
 nav{
-  display:block;
-  justify-content: space-evenly;
-  font-size: small;
+ display:block;
+ justify-content: space-evenly;
+ font-size: small;
 }
 .gallery{
-  display: flex;
- flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin: auto;
+ display: flex;
+flex-direction: column;
+ align-items: center;
+ gap: 1rem;
+ margin: auto;
 }
 .gallery img{
-  display: block;
-  margin: 1rem;
-  height: 250px;
-  width: 200px;
+ display: block;
+ margin: 1rem;
+ height: 250px;
+ width: 200px;
 }
+
+
  
 @media(min-width: 897px)
 {
