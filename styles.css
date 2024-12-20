@@ -231,7 +231,7 @@ justify-content: center;}
 .section-container{
    display: flex;
    flex-direction: column;
-   justify-content: column;
+   
    align-items: center;
    width: 45%;
 }
@@ -395,7 +395,7 @@ main{
      .section-container{
         display: flex;
         flex-direction: column;
-        justify-content: column;
+       
         align-items: center;
         width: 45%;
         font-size: x-large;
